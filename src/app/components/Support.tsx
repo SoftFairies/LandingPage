@@ -29,7 +29,7 @@ const teamSupport = [
   },
   {
     name: "Ninive Gonzales",
-    role: "Backend",
+    role: "Backend Developer & QA",
     avatar: "https://scontent.cdninstagram.com/v/t51.82787-19/710478461_18408516922196605_5872995714860679009_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=103&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=HKRfClVBOmYQ7kNvwGK3Ms9&_nc_oc=Adpa-Yld4giQCwbzgczM76OL_KLRYdcVEHP7T45nBjPL9QQR8E0Mb7rVSIe6ufGMNZ_L7M5gOcwUaRnxJwRVjVjz&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=yYGicKoe7-zLMaOtc1jYqA&_nc_ss=7b689&oh=00_AQAk5iCOTTnljrtv7wl6YNYXxX4wLAATkETcGG4w5yEB1g&oe=6A52825D",
     contacts: [
       { type: "email", label: "niniveargeliaperezgonzalez@gmail.com ", href: "mailto:niniveargeliaperezgonzalez@gmail.com" },
@@ -38,7 +38,7 @@ const teamSupport = [
   },
   {
     name: "Mónica Velázquez",
-    role: "Una nubecita",
+    role: "Backend API Developer",
     avatar: "https://scontent.cdninstagram.com/v/t51.82787-19/657740775_18356837209233284_2116215109728134815_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=101&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=WQTUfLvCtHwQ7kNvwHD6t60&_nc_oc=Ado_KyRjLHsWBfZCADVsJIAPrm-lefbHzroOY0vuSAmeq2TprdjTu2jfBsaRTSTj636EvYr3Fe_YdJnitrsDq7yo&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=ahwqp4pKhDItmDFh7rlW8A&_nc_ss=7b689&oh=00_AQB5lvfeDzFKhfCr3wYXUxT0FWy3OtBCvpgCosZKE1FpxA&oe=6A528BA2",
     contacts: [
       { type: "ig", label: "@miminmyn", href: "https://www.instagram.com/miminmyn/" },
