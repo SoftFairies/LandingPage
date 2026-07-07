@@ -14,11 +14,6 @@ export function Header({ onAppClick, onRegisterClick }: HeaderProps) {
     }
   };
 
-  const handleRegisterClick = () => {
-    const registrationLink = "https://forms.gle/Dqt5BuS8w1a2dPfq9";
-    window.open(registrationLink, "_blank", "noopener,noreferrer");
-  };
-
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -41,21 +36,22 @@ export function Header({ onAppClick, onRegisterClick }: HeaderProps) {
             >
               Creadores
             </button>
-            {/*<button
+
+            <button
               onClick={() => scrollToSection("soporte")}
               className="text-sm hover:text-blue-600 transition-colors"
-            >
-              Soporte
-            </button>*/}
+            >Soporte
+            </button>
           </nav>
 
           <div className="flex items-center gap-3">
-            <Button variant="outline" onClick={onAppClick}>
-              Ir a la App
-            </Button>
-            
-            <Button onClick={handleRegisterClick}>
-              Registro Previo
+            <Button
+              variant="outline"
+              onClick={() => {
+                window.location.href = "https://lm-front-production.up.railway.app/login";
+              }}
+            >
+              Inicio de Sesión
             </Button>
           </div>
         </div>

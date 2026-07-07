@@ -13,7 +13,7 @@ const features = [
     icon: UserCog,
     title: "Autenticación y Personalización",
     description:
-      "Registro, inicio de sesión y formulario psicográfico de preferencias de lectura. Vinculación dinámica con un 'Radar de Curiosidades' que despliega datos curiosos, efemérides y notas de contexto cultural.",
+      "Crea tu perfil a tu medida y descubre nuestro 'Radar de Curiosidades', un espacio diseñado para sorprenderte con datos fascinantes, efemérides y notas culturales cada vez que entres.",
     color: "text-blue-600",
     bg: "bg-blue-50",
   },
@@ -21,7 +21,7 @@ const features = [
     icon: Library,
     title: "Biblioteca Personal Automatizada",
     description:
-      "Gestión de lecturas mediante indexación y consumo de API externa de metadatos de libros y mangas, reduciendo el esfuerzo de llenado de datos.",
+      "Organiza tus lecturas sin complicaciones. Solo busca tu obra favorita y nosotros nos encargamos de autocompletar la portada, el autor y todos los detalles por ti.",
     color: "text-purple-600",
     bg: "bg-purple-50",
   },
@@ -29,7 +29,7 @@ const features = [
     icon: Clock,
     title: "Registro de Progreso Flexible",
     description:
-      "Cuantificación automatizada de páginas/capítulos mediante temporizador interactivo en tiempo real, complementado con módulo de registro manual para capturar lecturas fuera de la aplicación.",
+      "Mide tu tiempo de lectura en vivo con nuestro cronómetro interactivo, o si lo prefieres, registra tus avances manualmente. ¡Tú decides cómo llevar el control de tus páginas y capítulos!",
     color: "text-green-600",
     bg: "bg-green-50",
   },
@@ -37,15 +37,15 @@ const features = [
     icon: BarChart3,
     title: "Dashboard Analítico Dinámico",
     description:
-      "Panel visual de estadísticas con distribución de géneros en gráficos interactivos, promedios diarios y líneas de tiempo de obras completadas.",
+      "Visualiza tu historial como lector con gráficos increíbles. Descubre tus géneros favoritos, conoce tu ritmo de lectura diario y celebra todas las obras que has terminado.",
     color: "text-orange-600",
     bg: "bg-orange-50",
   },
   {
     icon: Trophy,
-    title: "Gamificación y Engagement",
+    title: "Retos y Recompensas", 
     description:
-      "Sistema de rachas consecutivas de días leyendo (streaks) y desbloqueo de insignias por méritos de lectura, implementado con lógica en el servidor.",
+      "¡Mantén el hábito y gana recompensas! Acumula días consecutivos de lectura para mantener tu racha viva y desbloquea insignias exclusivas al alcanzar nuevas metas.",
     color: "text-yellow-600",
     bg: "bg-yellow-50",
   },
@@ -53,7 +53,7 @@ const features = [
     icon: Mail,
     title: "Buzón del Lector",
     description:
-      "Intercambio asíncrono con algoritmo de asignación aleatoria y ciclos de bloqueo/apertura de cartas de recomendación cada 24 horas administrado internamente.",
+      "Conecta con la comunidad intercambiando cartas de recomendación. Cada 24 horas podrás enviar tus favoritas y descubrir nuevas sugerencias literarias sorpresa.",
     color: "text-pink-600",
     bg: "bg-pink-50",
   },

@@ -32,18 +32,12 @@ export function Hero({ onRegisterClick }: HeroProps) {
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              La plataforma completa para transformar tu experiencia de lectura.
+              La plataforma que transformar tu experiencia de lectura.
               Registra tu progreso, descubre nuevos libros y mantén la
-              motivación con un sistema de gamificación diseñado para lectores
-              apasionados.
+              motivación.
             </p>
 
             <div className="flex flex-wrap gap-4">
-              {/* Ahora llama a la función local handleRegisterClick */}
-              <Button size="lg" onClick={handleRegisterClick} className="gap-2">
-                <Target className="size-5" />
-                Regístrate Ahora
-              </Button>
               <Button
                 size="lg"
                 variant="outline"
@@ -57,23 +51,6 @@ export function Hero({ onRegisterClick }: HeroProps) {
               </Button>
             </div>
 
-            <div className="flex items-center gap-8 pt-4">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">6</div>
-                <div className="text-sm text-gray-600">Módulos</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">100%</div>
-                <div className="text-sm text-gray-600">Personalizable</div>
-              </div>
-              <div className="text-center">
-                <div className="flex items-center gap-1">
-                  <TrendingUp className="size-6 text-blue-600" />
-                  <span className="text-3xl font-bold text-blue-600">∞</span>
-                </div>
-                <div className="text-sm text-gray-600">Progreso</div>
-              </div>
-            </div>
           </div>
 
           <div className="relative">

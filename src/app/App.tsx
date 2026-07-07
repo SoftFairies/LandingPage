@@ -28,7 +28,7 @@ export default function App() {
       <Hero onRegisterClick={handleRegisterClick} />
       <Features />
       <Creators />
-      {/* <Support /> */}
+      <Support />
       <Footer />
       <InProgressDialog
         open={showInProgress}
