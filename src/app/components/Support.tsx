@@ -1,4 +1,4 @@
-import { MessageSquare, Shield, Wrench, HeartHandshake, Mail, Instagram, Phone, Globe, User } from "lucide-react";
+import { MessageSquare, Shield, Wrench, HeartHandshake, Mail, LinkedinIcon, Phone, Globe, User } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 const supportItems = [
@@ -11,7 +11,7 @@ const supportItems = [
 const getIcon = (type: string) => {
   switch (type) {
     case "email": return <Mail className="size-4" />;
-    case "ig": return <Instagram className="size-4" />;
+    case "linkedin": return <LinkedinIcon className="size-4" />;
     case "phone": return <Phone className="size-4" />;
     default: return <Globe className="size-4" />;
   }
@@ -21,10 +21,10 @@ const teamSupport = [
   {
     name: "Alejandra Clemente",
     role: "UI / UX - Frontend Developer",
-    avatar: "https://scontent.cdninstagram.com/v/t51.82787-19/729692054_18107466080484360_6924717009836580844_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=104&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy43MjAuQzMifQ%3D%3D&_nc_ohc=R1EQUKrJaJIQ7kNvwETK8xV&_nc_oc=AdreQ7iDnSmWMI-a6OFEfuZYne9DPwhtQgSMUdYbS6Nmhc6nNi_m2lmOxEAfd37o6OHgQu7jdZpKWmZQM5WRykUD&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=vHODE-bT69_Axg4-jAdg2A&_nc_ss=7b689&oh=00_AQAinmHnxxq532bdpzzrPF7X_xBrtxGcuxO3cBXGdq6OUA&oe=6A5286C2", // Cambia esto por tu URL de imagen
+    avatar: "https://media.licdn.com/dms/image/v2/D5603AQHfX4NHwQZ6pg/profile-displayphoto-scale_200_200/B56Zwl7TwoJEAY-/0/1770162832299?e=2147483647&v=beta&t=fZ8aY_gXw1SvSb1ZoOgKtD36AwKj2N1SU11k0rZ11mI", // Cambia esto por tu URL de imagen
     contacts: [
       { type: "email", label: "alejandraclemente48@gmail.com", href: "mailto:alejandraclemente48@gmail.com" },
-      { type: "phone", label: "+52 968 6704 489", href: "tel:+529686704489" },
+      { type: "linkedin", label: "Alejandra Clemente", href: "https://www.linkedin.com/in/patricia-alejandra-clemente-chacon-4466013aa?utm_source=share_via&utm_content=profile&utm_medium=member_android"}
     ],
   },
   {
@@ -33,15 +33,15 @@ const teamSupport = [
     avatar: "https://scontent.cdninstagram.com/v/t51.82787-19/710478461_18408516922196605_5872995714860679009_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=103&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=HKRfClVBOmYQ7kNvwGK3Ms9&_nc_oc=Adpa-Yld4giQCwbzgczM76OL_KLRYdcVEHP7T45nBjPL9QQR8E0Mb7rVSIe6ufGMNZ_L7M5gOcwUaRnxJwRVjVjz&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=yYGicKoe7-zLMaOtc1jYqA&_nc_ss=7b689&oh=00_AQAk5iCOTTnljrtv7wl6YNYXxX4wLAATkETcGG4w5yEB1g&oe=6A52825D",
     contacts: [
       { type: "email", label: "niniveargeliaperezgonzalez@gmail.com ", href: "mailto:niniveargeliaperezgonzalez@gmail.com" },
-      { type: "ig", label: "@ninive__gonzalez", href: "https://www.instagram.com/ninive__gonzalez" },
+      { type: "linkedin", label: "Ninive Gonzales", href: "https://www.linkedin.com/in/ninive-gonzalez-8866163aa?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
     ],
   },
   {
     name: "Mónica Velázquez",
     role: "Backend API Developer",
-    avatar: "https://scontent.cdninstagram.com/v/t51.82787-19/657740775_18356837209233284_2116215109728134815_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=101&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=WQTUfLvCtHwQ7kNvwHD6t60&_nc_oc=Ado_KyRjLHsWBfZCADVsJIAPrm-lefbHzroOY0vuSAmeq2TprdjTu2jfBsaRTSTj636EvYr3Fe_YdJnitrsDq7yo&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=ahwqp4pKhDItmDFh7rlW8A&_nc_ss=7b689&oh=00_AQB5lvfeDzFKhfCr3wYXUxT0FWy3OtBCvpgCosZKE1FpxA&oe=6A528BA2",
+    avatar: "https://media.licdn.com/dms/image/v2/D4E03AQE8Z0HW0kF-wA/profile-displayphoto-scale_400_400/B4EZwltiUxGoAg-/0/1770159222586?e=1785369600&v=beta&t=_fcLgKEMv-7klCaM-0CQOYQnNfVArnCo-AglnsS6wAo",
     contacts: [
-      { type: "ig", label: "@miminmyn", href: "https://www.instagram.com/miminmyn/" },
+      { type: "linkedin", label: "Mónica Velázquez", href: "https://www.linkedin.com/in/mónica-velázquez-8866163aa?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
     ],
   },
 ];
